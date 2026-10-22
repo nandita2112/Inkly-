@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkly - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-page">
+
+    <div class="login-box">
+
+        <div class="login-logo">Inkly<span>.</span></div>
+
+        <h1>Welcome back</h1>
+        <p>Sign in to continue to Inkly.</p>
+
+        <form id="loginForm">
+
+            <label>Full Name</label>
+            <input type="text" id="name"
+                   placeholder="Enter your name" required>
+
+            <label>Email Address</label>
+            <input type="email" id="email"
+                   placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" id="password"
+                   placeholder="Enter password" required>
+
+            <button type="submit">
+                Continue →
+            </button>
+
+        </form>
+
+        <small id="loginMessage"></small>
+
+        <div class="login-line">
+            <span>or continue as</span>
+        </div>
+
+        <button class="guest-btn" onclick="guestLogin()">
+            Continue as Guest
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

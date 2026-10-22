@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkly - Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <a class="logo" href="index.html">Inkly<span>.</span></a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="explore.html">Explore</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-right">
+        <div class="search">
+            <input id="exploreSearch" placeholder="Search articles...">
+            <span>⌕</span>
+        </div>
+        <button class="theme" onclick="toggleTheme()">☾</button>
+    </div>
+</header>
+
+
+<section class="page-hero">
+    <small>DISCOVER NEW IDEAS</small>
+    <h1>Explore <span>Stories</span></h1>
+    <p>
+        Discover thoughtful stories, fresh ideas and
+        perspectives from writers around the world.
+    </p>
+</section>
+
+
+<div class="filters">
+    <button class="filter active" data-category="all">All</button>
+    <button class="filter" data-category="technology">Technology</button>
+    <button class="filter" data-category="design">Design</button>
+    <button class="filter" data-category="travel">Travel</button>
+    <button class="filter" data-category="productivity">Productivity</button>
+</div>
+
+
+<section class="explore-grid">
+
+    <article class="explore-card" data-category="technology">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=85">
+        <small>TECHNOLOGY</small>
+        <h2>The Future of AI Is More Human Than We Think</h2>
+        <p>Technology is changing the way we work and think.</p>
+        <span>Tim Urban · 8 min read</span>
+    </article>
+
+    <article class="explore-card" data-category="design">
+        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&q=85">
+        <small>DESIGN</small>
+        <h2>Why Simple Design Works Better</h2>
+        <p>Good design makes complicated things easier.</p>
+        <span>5 min read</span>
+    </article>
+
+    <article class="explore-card" data-category="travel">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=700&q=85">
+        <small>TRAVEL</small>
+        <h2>Places That Change Your Perspective</h2>
+        <p>Travel can completely change how we see the world.</p>
+        <span>7 min read</span>
+    </article>
+
+    <article class="explore-card" data-category="productivity">
+        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=700&q=85">
+        <small>PRODUCTIVITY</small>
+        <h2>Build a Better Morning Routine</h2>
+        <p>Small routines can lead to meaningful changes.</p>
+        <span>6 min read</span>
+    </article>
+
+    <article class="explore-card" data-category="technology">
+        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=700&q=85">
+        <small>TECHNOLOGY</small>
+        <h2>Learning to Code in a Changing World</h2>
+        <p>A beginner's journey into programming.</p>
+        <span>6 min read</span>
+    </article>
+
+    <article class="explore-card" data-category="travel">
+        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=700&q=85">
+        <small>TRAVEL</small>
+        <h2>Finding Peace in New Places</h2>
+        <p>Sometimes getting away is exactly what we need.</p>
+        <span>5 min read</span>
+    </article>
+
+</section>
+
+
+<footer>
+    <div>
+        <a class="logo">Inkly<span>.</span></a>
+        <p>A home for stories, ideas and curious minds.</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <p>© 2026 Inkly. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
